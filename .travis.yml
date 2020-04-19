@@ -1,14 +1,14 @@
 language: cpp
 
+compiler:
+ - gcc
+ - clang
+
 addons:
  apt:
   packages:
    - cmake
    - cmake-data
-
-compiler:
- - gcc
- - clang
  
  script:
  - cd hello_world_application
