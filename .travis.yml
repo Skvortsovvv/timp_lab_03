@@ -9,8 +9,8 @@ addons:
   packages:
    - cmake
    - cmake-data
- 
- script:
+
+script:
  - cd hello_world_application
  - cmake -H. -B_build
  - cmake --build _build
