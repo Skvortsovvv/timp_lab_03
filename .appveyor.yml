@@ -2,5 +2,5 @@ image: Visual Studio 2019
 
 
 build_script:
- - cd hello_world_application
- - cmake -H. -B_build
+ - cmd: cd hello_world_application
+ - cmd: cmake -H. -B_build
