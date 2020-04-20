@@ -1,6 +1,6 @@
 os: Visual Studio 2019
 
 
-test-script:
- - cmd: cd hello_world_application
- - cmd: cmake -H. -B_build
+test_script:
+ - cd hello_world_application
+ - cmake -H. -B_build
