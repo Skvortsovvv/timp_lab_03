@@ -28,6 +28,9 @@ script:
  - cmake --build _build
  - cmake --build _build --target solver
  - ./_build/solver
+ - 1
+ - 6
+ - -7
  - echo "Solver application testing is done"
  
  
