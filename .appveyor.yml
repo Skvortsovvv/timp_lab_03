@@ -6,4 +6,5 @@ build_script:
  - cmd: cmake -H. -B_build
  - cmd: cmake --build _build
  - cmd: cmake --build _build --target hello_world
- - cmd: start _build\hello_world.exe
+ - cmd: start _build\Debug\hello_world.exe
+ - cmd: tree /f
